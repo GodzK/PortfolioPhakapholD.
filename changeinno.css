@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 .videoo {
     display: flex;
@@ -54,4 +55,19 @@ h2{
   .pyro img {
    margin: 30px;
   }
+  #btn{
+    background-color: #af3333;
+    width: 150px;
+    height: 60px;
+    color: aliceblue;
+    border-color: rgb(rgb(0, 0, 0), green, blue);
+  }
+  #btn:hover {
+     background-color: rgb(8, 4, 29);
+     border-color: #af3333;
+     transition: 0.75s;
+  }
+  #txt{
+    text-align: center;
+    color: white;
  
