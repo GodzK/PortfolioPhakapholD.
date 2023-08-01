@@ -1,0 +1,57 @@
+
+body{
+    background:rgb(8, 4, 29);
+ }
+.header{
+    text-align: center;
+    color: aliceblue;
+    padding: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videoo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+
+h2{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    padding-bottom: 60px;
+    letter-spacing: 10px;
+    color: rgb(34, 164, 29);
+    animation: animate 5s linear infinite;
+  }
+@keyframes animate {
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80.1%, 90.1%, 92% {
+      color: rgb(69, 217, 32);
+      text-shadow: none;
+    }
+    18.1%, 20.1%, 30%, 50.1%, 60%, 65%, 80.1%, 90%, 92.1%, 100% {
+      color: #ffffff;
+      text-shadow: 0 0 10px #31e29e,
+      0 0 20px #3ce100,
+      0 0 40px #11761e,
+      0 0 80px #57b827,
+      0 0 160px #118c63;
+    }
+  }
+  .btn btn-danger{
+    border-radius: 0px;
+    
+  }
+  .pyro {
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .pyro img {
+   margin: 30px;
+  }
+ 
